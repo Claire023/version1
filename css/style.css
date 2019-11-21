@@ -1,0 +1,45 @@
+@import './header.css';
+@import './footer.css';
+@import './nav.css';
+@import './sections.css';
+
+:root {
+    scroll-behavior: smooth;
+    --bg:rgb(13, 221, 107);
+}
+
+h1::before {
+    display:block;
+content : "*";
+background:green;
+border:5px solid red;
+width :100px;
+height:100px;
+box-sizing: border-box;  
+}
+
+body {
+    margin:0;
+    padding:0; 
+    background: #e0f7f7;
+    font-family:sans-serif;
+    line-height : 30px;
+    color:#444;  
+   
+}
+
+ul {
+    list-style:none;
+}
+
+a {
+    color :#444; 
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color:#aaa; 
+    
+}
+

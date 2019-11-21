@@ -1,0 +1,19 @@
+section {
+    padding:10px;
+    margin-bottom:20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#contact button {
+    width :100%;
+    transition : 1s;
+
+}
+
+#contact button:hover {
+    width:200px;
+}

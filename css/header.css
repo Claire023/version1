@@ -1,0 +1,19 @@
+ #logo {
+
+    padding:10px;
+    
+} 
+
+header {
+    position:sticky;
+    top:0;
+    display:flex;
+    background : var(--bg);
+    justify-content : space-between;
+    box-shadow: 2px 2px 5px #333; 
+}
+
+
+
+
+
